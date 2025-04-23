@@ -2,9 +2,9 @@ import type { MetadataRoute } from 'next'
  
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: 'Xentriom',
-    short_name: 'Xentriom',
-    description: 'Next.js App',
+    name: 'xentriom',
+    short_name: 'xentriom',
+    description: 'Exploring the web, one idea at a time',
     start_url: '/',
     display: 'standalone',
     background_color: '#fff',

@@ -17,10 +17,9 @@ export const metadata: Metadata = {
     template: "%s | xentriom",
     default: "xentriom",
   },
-  description: "Exploring the web, one idea at a time - by xentriom.",
+  description: "Exploring the web, one idea at a time",
   openGraph: {
-    title: "xentriom",
-    description: "Exploring the web, one idea at a time - by xentriom.",
+    description: "Exploring the web, one idea at a time",
     url: "https://xentriom.com",
     siteName: "xentriom",
     images: [
@@ -37,7 +36,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "xentriom",
-    description: "Exploring the web, one idea at a time - by xentriom.",
+    description: "Exploring the web, one idea at a time",
     images: ["https://xentriom.com/opengraph-image.png"],
   }
 };
