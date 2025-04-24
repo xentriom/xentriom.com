@@ -18,6 +18,8 @@ export const metadata: Metadata = {
     default: 'xentriom',
   },
   description: 'Exploring the web, one idea at a time',
+  keywords: ['xentriom', 'xen', 'xentricity', 'web', 'development'],
+  creator: 'xentriom',
   openGraph: {
     description: 'Exploring the web, one idea at a time',
     url: 'https://xentriom.com',
@@ -26,7 +28,7 @@ export const metadata: Metadata = {
         url: 'https://xentriom.com/opengraph-image.png',
         width: 1200,
         height: 630,
-        alt: 'xentriom',
+        alt: 'xentriom logo',
       },
     ],
     locale: 'en-US',
