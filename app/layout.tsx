@@ -21,7 +21,6 @@ export const metadata: Metadata = {
   openGraph: {
     description: 'Exploring the web, one idea at a time',
     url: 'https://xentriom.com',
-    siteName: 'xentriom',
     images: [
       {
         url: 'https://xentriom.com/opengraph-image.png',
