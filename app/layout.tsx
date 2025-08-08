@@ -14,6 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://xentriom.com"),
   title: {
     template: "%s | xentriom",
     default: "xentriom",
@@ -21,9 +22,14 @@ export const metadata: Metadata = {
   description: "Exploring the web, one idea at a time",
   keywords: ["xentriom", "xen", "xentricity", "web", "development"],
   creator: "xentriom",
+  authors: [{ name: "xentriom", url: "https://xentriom.com" }],
   openGraph: {
+    title: "xentriom",
     description: "Exploring the web, one idea at a time",
     url: "https://xentriom.com",
+    siteName: "xentriom",
+    type: "website",
+    locale: "en_US",
     images: [
       {
         url: "https://xentriom.com/opengraph-image.png",
@@ -32,8 +38,6 @@ export const metadata: Metadata = {
         alt: "xentriom logo",
       },
     ],
-    locale: "en-US",
-    type: "website",
   },
   twitter: {
     card: "summary_large_image",
