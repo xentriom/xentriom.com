@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     locale: "en_US",
     images: [
       {
-        url: "https://xentriom.com/opengraph-image.png",
+        url: "opengraph-image.png",
         width: 1200,
         height: 630,
         alt: "xentriom logo",
@@ -43,7 +43,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "xentriom",
     description: "Exploring the web, one idea at a time",
-    images: ["https://xentriom.com/opengraph-image.png"],
+    images: ["opengraph-image.png"],
   },
 };
 
